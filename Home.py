@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
 
-st.header('Kumpon')
+st.header('____*____Kumpon____*____')
 st.image('./Pic/Fow1.jpg')
 st.image('./Pic/My.jpg')
 html_8 = """
