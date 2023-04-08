@@ -44,7 +44,7 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
    st.header("Setosa")
-   st.image("./Pic/Set1.png")
+   st.image("./Pic/Set1.jpg")
 
 with col2:
    st.header("Virginica")
@@ -75,7 +75,7 @@ if st.button("ทำนายผล"):
    out=Knn_model.predict(x_input)
 
    if out[0] == 'Setosa':
-    st.image("./Pic/Set1.png")
+    st.image("./Pic/Set1.jpg")
    elif out[0] == 'Virginica':
     st.image("./Pic/Vir.jpg")
    elif out[0] == 'Versicolor':
