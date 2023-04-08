@@ -8,7 +8,7 @@ import plotly.graph_objects as go
 
 st.header('Kumpon')
 st.image('./Pic/Fow1.jpg')
-st.image('./Pic/Cat.jpg')
+st.image('./Pic/My.jpg')
 html_8 = """
 <div style="background-color:#D5DBDB;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
 <center><h4>การทำนายข้อมูลดอกไม้</h4></center>
