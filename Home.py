@@ -62,7 +62,9 @@ if st.button("ทำนายผล"):
 
    if out[0] == 'Setosa':
     st.image("./Pic/Set.png")
+   elif out[0] == 'Virginica':
     st.image("./Pic/Vir.jpg")
+   elif out[0] == 'Versicolor':
     st.image("./Pic/Col.png")
    else:       
     st.writ('xxx')    
