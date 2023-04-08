@@ -40,6 +40,20 @@ html_8 = """
 <center><h4>ทำนายข้อมูล</h4></center>
 </div>
 """
+col1, col2, col3 = st.columns(3)
+
+with col1:
+   st.header("Setosa")
+   st.image("./Pic/Set.png")
+
+with col2:
+   st.header("Virginica")
+   st.image("./Pic/Vir.jpg")
+
+with col3:
+   st.header("Versicolor")
+   st.image("./Pic/Col.png")
+   
 st.markdown(html_8, unsafe_allow_html=True)
 st.markdown("")
 
